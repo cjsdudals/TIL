@@ -1,2 +1,7 @@
-# TIL
-Today I Learned
+# Today I Learned
+
+오늘 공부한 내용이나 새롭게 알게된 점을 매일 정리합니다.
+
+각 폴더의 main.md 파일에는 해당 폴더에 대한 설명이 기재되어있습니다.
+
+From 2021.04.20.
