@@ -351,3 +351,29 @@ TITLE<br>
 어셈블리 리스트의 각 페이지에 제목 출력<br>
 TITLE text<br>
 
+<br>
+SEGMENT<br>
+~<br>
+END<br>
+segname SEGMENT
+어셈블리 프로그램은 한 개 이상의 세그먼트들로 구성된다.<br>
+SEGMENT 지시어는 하나의 세그먼트를 정의한다.
+<br>
+PROC<br>
+~<br>
+END<br>
+procname PROC
+procname ENDP
+매크로 어셈블리에서는 프로그램의 실행부분을 모듈로 작성할 수 있다.<br>
+이 모듈을 프로시저(procedure)로 부르며, PROC 지시어가 이를 정의한다.
+<br>
+ASSUME<br>
+DS : data_segname<br>
+CS : data_segname<br>
+ES : extra_segname<br>
+어셈블리에서 세그먼트 레지스터와 사용자가 작성한 세그먼트의 이름을 연결시킨다.<br>
+<br>
+END<br>
+END<br>
+전제 프로그램의 끝을 나타냄<br>
+
