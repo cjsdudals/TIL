@@ -318,3 +318,36 @@ NOP (no operation)<br>
 ```
 NOP
 ```
+
+<br>
+DB (Define Byte)<br>
+name DB 초기값<br>
+<br>
+DW (Define Word)<br>
+name DW 초기값<br>
+<br>
+DD (Define Double Word)<br>
+name DD 초기값
+<br>
+DQ (Define Quad Word)<br>
+name DQ 초기값<br>
+<br>
+DF (Define Ten Bytes)<br>
+name DF 초기값<br>
+<br>
+EQU<br>
+변수 이름에 데이터 값이나 문자열 정의<br>
+name EQU 데이터값/문자열<br>
+<br>
+EVEN<br>
+어셈블리시 이 지시어가 사용되는 곳의 주소가 짝수로 되도록 함<br>
+name EVEN 초기값<br>
+<br>
+PAGE<br>
+어셈블리 리스트의 형식을 결정<br>
+PAGE [length][width]
+<br>
+TITLE<br>
+어셈블리 리스트의 각 페이지에 제목 출력<br>
+TITLE text<br>
+
