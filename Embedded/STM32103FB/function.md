@@ -33,6 +33,6 @@ t1.read();
 Ticker t1; // 콜백 함수를 사용하여 초 만큼 함수를 계속 실행함
 t1.attach(함수, 초);
 
-Timeout flipper; // 콜백 함수를 사용하여 함수를 초 뒤에 한번만 실행함
+Timeout flipper; // 콜백 함수를 사용하여 함수를 초 뒤에 한번만 실행함z
 flipper.attach(함수, 초);
 ```
